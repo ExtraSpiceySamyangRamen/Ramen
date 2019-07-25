@@ -1,7 +1,15 @@
 header{
-background-color:#FC1000;
+  background-color:#AF0B00;
 }
 
 aside{
-  
+  background:#E53935;
+  }
+
+article{
+  background:#FC1000;
+}
+
+footer{
+  background:#CE0D00;
 }
