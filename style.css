@@ -3,14 +3,25 @@ header{
 }
 
 main{
+  display: grid;
+  grid-template-areas:
+    'aside article article'
+    'aside footer footer';
+  grid-gap: 30px;
+}
 aside{
+  grid-area: aside;
   background:#E53935;
   }
 
 article{
+  grid-area: article;
   background:#FC1000;
 }
 
 footer{
+  grid-area: footer;
   background:#CE0D00;
 }
+
+  
